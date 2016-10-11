@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Task Force Spear - Official App</string>
+    <string name="RSS">RSS reader</string>
+    <string name="Settings">Settings</string>
+    <string name="WEB">Website</string>
+    <string name="YT">Youtube</string>
+    <string name="FB">Facebook</string>
+    <string name="Steam">Steam</string>
+</resources>

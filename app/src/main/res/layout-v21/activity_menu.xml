@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.redoper.taskforcespearofficialapp.Menu">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        tools:ignore="RtlHardcoded,UselessParent">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/RSS"
+            android:id="@+id/button_rss"
+            android:layout_gravity="center_horizontal"
+            android:onClick="RSS" />
+
+        <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/WEB"
+        android:id="@+id/button_web"
+        android:layout_gravity="center_horizontal"
+        android:onClick="goToWeb"
+        android:textColor="#fff"
+        android:backgroundTint="#484846" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/FB"
+            android:id="@+id/button_FB"
+            android:layout_gravity="center_horizontal"
+            android:onClick="goToFB"
+            android:textColor="#fff"
+            android:backgroundTint="#3b5998" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/YT"
+            android:id="@+id/button_YT"
+            android:layout_gravity="center_horizontal"
+            android:onClick="goToYT"
+            android:textColor="#fff"
+            android:backgroundTint="#e62117" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Steam"
+            android:id="@+id/button_Steam"
+            android:layout_gravity="center_horizontal"
+            android:onClick="goToSteam"
+            android:textColor="#fff"
+            android:backgroundTint="#171a21" />
+
+        <!--<Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Settings"
+            android:id="@+id/button_settings"
+            android:layout_gravity="center_horizontal" />-->
+    </LinearLayout>
+</RelativeLayout>

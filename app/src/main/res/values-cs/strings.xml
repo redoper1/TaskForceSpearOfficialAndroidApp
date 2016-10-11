@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Task Force Spear - Oficiální aplikace</string>
+    <string name="RSS">RSS čtečka</string>
+    <string name="Settings">Nastavení</string>
+    <string name="WEB">Webová stránka</string>
+    <string name="YT">Youtube</string>
+    <string name="FB">Facebook</string>
+    <string name="Steam">Steam</string>
+</resources>
