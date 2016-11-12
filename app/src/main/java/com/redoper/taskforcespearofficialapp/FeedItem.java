@@ -1,8 +1,5 @@
 package com.redoper.taskforcespearofficialapp;
 
-/**
- * Created by david on 29-07-2016.
- */
 public class FeedItem {
     String title;
     String link;
