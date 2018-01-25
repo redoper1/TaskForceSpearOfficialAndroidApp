@@ -22,3 +22,5 @@
 I decided to share code of this app from version 0.1.1 here on GitHub, so I can more easily continue updating this app with your help and advices :).
 
 Released version can be downloaded <a href="https://www.amazon.com/Redoper-Task-Force-Spear/dp/B01JEGQN0Q/">here</a>.
+
+Development of this application was cancelled in April 2017.
